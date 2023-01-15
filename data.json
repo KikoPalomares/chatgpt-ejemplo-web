@@ -1,0 +1,64 @@
+{
+    "bicicletas": [
+        {
+            "nombre": "Rockrider",
+            "modelo": "Bicicleta de montaña",
+            "img": "img/1-bicicleta.png",
+            "precio": 5
+        },
+        {
+            "nombre": "Specialized",
+            "modelo": "Bicicleta de carretera",
+            "img": "img/2-bicicleta.png",
+            "precio": 7
+        },
+        {
+            "nombre": "Trek",
+            "modelo": "Bicicleta de paseo",
+            "img": "img/3-bicicleta.png",
+            "precio": 3
+        },
+        {
+            "nombre": "Giant",
+            "modelo": "Bicicleta de montaña",
+            "img": "img/4-bicicleta.png",
+            "precio": 5
+        },
+        {
+            "nombre": "Cannondale",
+            "modelo": "Bicicleta de carretera",
+            "img": "img/5-bicicleta.png",
+            "precio": 7
+        },
+        {
+            "nombre": "Scott",
+            "modelo": "Bicicleta de paseo",
+            "img": "img/6-bicicleta.png",
+            "precio": 3
+        },
+        {
+            "nombre": "Cube",
+            "modelo": "Bicicleta de montaña",
+            "img": "img/7-bicicleta.png",
+            "precio": 5
+        },
+        {
+            "nombre": "Bianchi",
+            "modelo": "Bicicleta de carretera",
+            "img": "img/8-bicicleta.png",
+            "precio": 7
+        },
+        {
+            "nombre": "Merida",
+            "modelo": "Bicicleta de paseo",
+            "img": "img/9-bicicleta.png",
+            "precio": 3
+        },
+        {
+            "nombre": "Kona",
+            "modelo": "Bicicleta de montaña",
+            "img": "img/10-bicicleta.png",
+            "precio": 5
+        }
+    ]
+}

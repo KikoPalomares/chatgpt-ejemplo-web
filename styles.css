@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  nav {
+    background-color: #FFA07A;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  nav a:hover {
+    background-color: #ff7f50;
+  }
+  
+  main {
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffb6c1;
+  }
+  
+  section h2 {
+    margin-top: 0;
+  }
+  
+  footer {
+    background-color: #8B0000;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+
+  
+  #bicicletas-contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+
+.bicicleta {
+    width: 100%;
+}
+
+.bicicleta img {
+    width: 100%;
+    object-fit: cover;
+}

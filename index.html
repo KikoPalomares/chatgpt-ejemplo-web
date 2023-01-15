@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Alquiler de bicicletas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Alquiler de bicicletas</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#bicicletas">Bicicletas</a></li>
+            <li><a href="#ubicacion">Ubicación</a></li>
+            <li><a href="#reservas">Reservas</a></li>
+        </ul>
+    </nav>
+    <main>
+
+        <!-- Filtro por modelo -->
+        <select id="filtro-modelo">
+            <option value="">Todos los modelos</option>
+            <option value="Bicicleta de montaña">Bicicleta de montaña</option>
+            <option value="Bicicleta de carretera">Bicicleta de carretera</option>
+            <option value="Bicicleta de paseo">Bicicleta de paseo</option>
+        </select>
+
+        <!-- Filtro por precio -->
+        <select id="filtro-precio">
+            <option value="0">Todos los precios</option>
+            <option value="5">Hasta $5</option>
+            <option value="10">Hasta $10</option>
+            <option value="15">Hasta $15</option>
+        </select>
+
+        <section id="bicicletas">
+            <h2>Bicicletas disponibles</h2>
+            <div id="bicicletas-contenedor"></div>
+        </section>
+
+        <section id="ubicacion">
+            <h2>Ubicación</h2>
+            <p>Nuestra tienda se encuentra en la calle 123, en la ciudad de XYZ.</p>
+        </section>
+
+        <section id="reservas">
+            <h2>Reservas</h2>
+            <p>Para hacer una reserva, por favor llámenos al 555-555-5555 o envíenos un correo electrónico a
+                info@bicyclerentals.com</p>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright © 2021 Bicycle Rentals</p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
